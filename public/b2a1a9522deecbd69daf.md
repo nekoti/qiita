@@ -17,7 +17,7 @@ ignorePublish: false
 
 # プラガブルデータベース操作
 - 状態表示
-<font color="blue">OPEN MODEがMONTEDで停止している.</font>
+<font color="blue">"OPEN MODE"が"MONTED"で停止している.</font>
 ```SQL
 $ sqlplus / as sysdba
 SQL> show pdbs
@@ -34,7 +34,7 @@ SQL> alter pluggable database ORCLPDB1 open;
 プラガブル・データベースが変更されました。
 ```
 - 状態表示
-<font color="blue">OPEN MODEがREAD WRITEとなり起動完了.</font>
+<font color="blue">"OPEN MODE"が"READ WRITE"となり起動完了.</font>
 ```SQL
 SQL> show pdbs
 
